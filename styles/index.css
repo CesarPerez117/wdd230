@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap');
+
+
+body {
+    color: black;
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+}
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*header*/
+header {
+    width: 500px;
+    background-color: rgb(1, 68, 35);
+    display: grid;
+    grid-template-columns: 13em;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+    justify-content:space-around;
+    
+}
+#name {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    color: aliceblue;
+}
+
+/*main*/
+main {
+    margin: 10px;
+    padding: 20px;
+}
+
+/*footer*/
+footer {
+    width: 500px;
+    color: aliceblue;
+    background-color: rgb(1, 68, 35);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5%;
+    justify-content:space-around;
+}
