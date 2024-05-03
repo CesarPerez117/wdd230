@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cesar Perez - WDD 230 - Web Fronted Development</title>
-    <meta name="description" content="WDD 230 - Web Frontend Development - Cesar Perez - course assignment portal">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Cesar E. Perez - course assignment portal">
     <meta name="author" content="Cesar E. Perez">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
     <header>
-        <img src="images/cesar-perez.jpg" alt="Cesar Perez Photo">
+        <img src="images/cesar-perez.jpg" alt="Cesar Perez Photo" width="120" height="130">
         <span>Cesar E. Perez</span>
     </header>
+    <a id="menu" href="#"></a>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
+            <li class="active"><a href="">Home</a></li>
             <li><a href="">Chamber</a></li>
             <li><a href="">Site Plan</a></li>
             <li><a href="">Form</a></li>
@@ -24,26 +25,28 @@
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-        <section class="card">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li><a>Week 01:</a></li>
-                <li><a>Week 02:</a></li>
-                <li><a>Week 03:</a></li>
-                <li><a>Week 04:</a></li>
-                <li><a>Week 05:</a></li>
-                <li><a>Week 06:</a></li>
-            </ul>
-        </section>
-        <section class="card">
-            <h2>Information</h2>
-            <p>Here is where information will be</p>
-        </section>
+        <div class="cards">
+            <section class="card">
+                <h2>Learning Activities</h2>
+                <ul>
+                    <li><a>Week 01:</a></li>
+                    <li><a>Week 02:</a></li>
+                    <li><a>Week 03:</a></li>
+                    <li><a>Week 04:</a></li>
+                    <li><a>Week 05:</a></li>
+                    <li><a>Week 06:</a></li>
+                </ul>
+            </section>
+            <section class="card">
+                <h2>Information</h>
+                <p>Here is where information will be</p>
+            </section>
+        </div>
     </main>
     <footer>
-        <p>@copy 2024 | Cesar E. Perez | Dominican Republic</p>
-        <p id="lastModified">Last Modification:</p>
+        <p>&copy; <span id="currentYear"></span> | Cesar E. Perez | Dominican Republic</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
-<script src="scripts/getDates.js"></script>
+<script src="scripts/getDates.js" type="text/javascript"></script>
 </html>
